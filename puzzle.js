@@ -60,5 +60,7 @@ function findLargestSequence(fragments) {
 const result = findLargestSequence(fragments);
 
 console.log('Найбільша послідовність:', result);
+console.log('Довжина послідовності:', result.length);
+
 
 fs.writeFileSync('./result.txt', result, 'utf8');
